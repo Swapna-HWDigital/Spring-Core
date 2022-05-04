@@ -1,0 +1,29 @@
+Transient
+=============
+when an entity object is newly created (new or transient)
+
+Example
+
+Employee => Entity
+
+Employee emp = new Employee();
+
+Persistent or Managed State
+=======================
+When entity object is saved/persisted in to the database
+
+When entity objects are retrieved  then also the objects will be in Managed or Persistent State
+
+
+Detached State
+============
+
+Entity Objects are disconnected from entity manager
+
+Removed State
+============
+When the entity is removed and marked as deleted by entity manager
+
+
+Entity Manager manages the entities and its states in the JPA.
+
